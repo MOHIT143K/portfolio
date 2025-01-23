@@ -29,7 +29,7 @@ const Home = () => {
               <motion.span
                 className={darkMode ? "block text-black" : " text-white"}
               >
-                Hi, I am Aakash
+                Mohit Khandelwal
               </motion.span>
               <span className="block text-blue-500 z-0 lg:inline">
                 <Typical
@@ -53,7 +53,7 @@ const Home = () => {
               }
             >
               I am a Front-End / Full-Stack Developer. I am currently working at
-              CloudStok Technologies as a Front-End Developer
+              Wipro Limited as a Technical Lead.
             </p>
             <div className="flex md:justify-start ">
               {contactLinks.map((el) => (
