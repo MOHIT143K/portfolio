@@ -38,7 +38,9 @@ const Home = () => {
                     1000,
                     "Full Stack Developer",
                     1000,
-                    "Mobile Developer",
+                    "Web Developer",
+                    1000,
+                    "Technical Lead",
                     1000,
                   ]}
                   loop={Infinity}
