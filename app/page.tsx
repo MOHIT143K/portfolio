@@ -1,13 +1,13 @@
 "use client";
 
-import { 
-  Github, 
-  Linkedin, 
-  Mail, 
-  MapPin, 
-  Phone, 
-  GraduationCap, 
-  Building2, 
+import {
+  Github,
+  Linkedin,
+  Mail,
+  MapPin,
+  Phone,
+  GraduationCap,
+  Building2,
   Calendar,
   Code2,
   Server,
@@ -229,12 +229,17 @@ export default function Home() {
             </Badge>
           </div>
           <div className="flex justify-center gap-4">
-            <Button variant="outline" size="lg">
-              <Github className="mr-2 h-4 w-4" /> GitHub
-            </Button>
-            <Button variant="outline" size="lg">
-              <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
-            </Button>
+
+            <a href="https://github.com/MOHIT143K" target="Github Account">
+              <Button variant="outline" size="lg">
+                <Github className="mr-2 h-4 w-4" /> GitHub
+              </Button>
+            </a>
+            <a href="https://in.linkedin.com/in/m143" target="Linkedin Account">
+              <Button variant="outline" size="lg">
+                <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
+              </Button>
+            </a>
           </div>
         </div>
       </section>
@@ -273,19 +278,19 @@ export default function Home() {
               <TabsTrigger value="mid">Mid Career</TabsTrigger>
               <TabsTrigger value="early">Early Career</TabsTrigger>
             </TabsList>
-            
+
             <TabsContent value="wipro">
               {experiences.slice(0, 2).map((exp) => (
                 <ExperienceCard key={exp.company} experience={exp} />
               ))}
             </TabsContent>
-            
+
             <TabsContent value="mid">
               {experiences.slice(2, 4).map((exp) => (
                 <ExperienceCard key={exp.company} experience={exp} />
               ))}
             </TabsContent>
-            
+
             <TabsContent value="early">
               {experiences.slice(4).map((exp) => (
                 <ExperienceCard key={exp.company} experience={exp} />
@@ -355,7 +360,20 @@ export default function Home() {
 }
 
 // Experience Card Component
-function ExperienceCard({ experience }) {
+function ExperienceCard({ experience }: {
+  experience: {
+    position: string,
+    company: string,
+    period: string,
+    highlights: string[],
+    projects: {
+      name: string,
+      client: string,
+      tech: string,
+      image: string
+    }[]
+  }
+}) {
   return (
     <Card className="mb-8 p-6">
       <div className="flex items-center gap-4 mb-4">
