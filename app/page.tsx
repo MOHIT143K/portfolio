@@ -355,7 +355,18 @@ export default function Home() {
 }
 
 // Experience Card Component
-function ExperienceCard({ experience }) {
+function ExperienceCard({ experience }: { experience: {
+  position: string,
+  company: string,
+  period: string,
+  highlights: string[],
+  projects: {
+    name: string,
+    client: string,
+    tech: string,
+    image: string
+  }[]
+} }) {
   return (
     <Card className="mb-8 p-6">
       <div className="flex items-center gap-4 mb-4">
