@@ -75,8 +75,14 @@ export default function Home() {
         {
           name: "Telstra Reward Store",
           client: "Telstra",
-          tech: "Angular 16, JavaScript, HTML, Storybook, GitLab, Salesforce integration",
+          tech: "Angular 16, JavaScript, HTML, Storybook, GitLab, Salesforce Integration, SSO Login",
           image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80"
+        },
+        {
+          name: "Telstra E-SIM Order Management",
+          client: "Telstra",
+          tech: "React, Redux, TypeScript, HTML, Jest, Storybook, GitLab, SSO Login",
+          image: "https://images.unsplash.com/photo-1504868584819-f8e8b4b6d7e3?auto=format&fit=crop&q=80"
         }
       ]
     },
@@ -101,7 +107,7 @@ export default function Home() {
           name: "Survey Dashboard",
           client: "Mckinsey",
           tech: "React, Redux, JavaScript, Jest, HTML, GitHub, Material-UI",
-          image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80"
+          image: "https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?auto=format&fit=crop&q=80"
         }
       ]
     },
@@ -119,8 +125,14 @@ export default function Home() {
         {
           name: "Empower Retirement",
           client: "Empower, Go West IT",
-          tech: "React JS, Redux, Typescript, JavaScript, HTML, CSS, Bootstrap, Mocha JS, Git",
-          image: "https://images.unsplash.com/photo-1554224155-8d04cb21cd6c?auto=format&fit=crop&q=80"
+          tech: "React JS, Redux, JavaScript, HTML, CSS, Bootstrap, Mocha JS, Git",
+          image: "https://plus.unsplash.com/premium_photo-1661277697952-0cacde72c755?auto=format&fit=crop&q=80"
+        },
+        {
+          name: "Report Management System",
+          client: "Fidelity International",
+          tech: "React JS, Redux, Typescript, JavaScript, HTML, CSS, Bootstrap, Jest, Git",
+          image: "https://images.unsplash.com/photo-1599658880436-c61792e70672?auto=format&fit=crop&q=80"
         }
       ]
     },
@@ -130,9 +142,9 @@ export default function Home() {
       position: "Software Developer",
       period: "June 2016 – June 2017",
       highlights: [
-        "Developed admin dashboard using React JS",
-        "Built responsive web application for parking management",
-        "Implemented real-time parking spot tracking"
+        "Developed admin dashboard using React JS for parking management and revenue management",
+        "Built responsive web application for parking booking",
+        "Implemented real-time parking spot tracking application"
       ],
       projects: [
         {
@@ -140,6 +152,12 @@ export default function Home() {
           client: "Internal Product",
           tech: "React JS, Redux, JavaScript, jQuery, HTML, CSS, Bootstrap, Jest, Bitbucket",
           image: "https://images.unsplash.com/photo-1573348722427-f1d6819fdf98?auto=format&fit=crop&q=80"
+        },
+        {
+          name: "Parking Booking Application",
+          client: "Internal Product",
+          tech: "Angular JS, JavaScript, jQuery, HTML, CSS, Bootstrap, Bitbucket",
+          image: "https://images.unsplash.com/photo-1506521781263-d8422e82f27a?auto=format&fit=crop&q=80"
         }
       ]
     },
@@ -150,15 +168,21 @@ export default function Home() {
       period: "January 2015 – May 2016",
       highlights: [
         "Built e-ordering application using AngularJS",
-        "Developed chef dashboard for order management",
-        "Implemented real-time order tracking"
+        "Developed chef dashboard for order & menu management",
+        "Implemented real-time order tracking application"
       ],
       projects: [
         {
           name: "Bite Club E-Ordering App",
-          client: "Internal Product",
+          client: "Public Product",
           tech: "AngularJS, JavaScript, HTML, CSS, Bitbucket, AWS",
           image: "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&q=80"
+        },
+        {
+          name: "Bite Club Chef and Menu Dashboard",
+          client: "Internal Product",
+          tech: "AngularJS, JavaScript, HTML, CSS, Bitbucket, AWS",
+          image: "https://images.unsplash.com/photo-1709837167719-1ff90bdbbac5?auto=format&fit=crop&q=80"
         }
       ]
     },
@@ -174,10 +198,16 @@ export default function Home() {
       ],
       projects: [
         {
-          name: "EFmFm (Transport Management System)",
+          name: "EFmFm (Employee Transport Management System)",
           client: "Newt Global India Pvt. Ltd.",
           tech: "jQuery, JavaScript, HTML, CSS, Bootstrap",
-          image: "https://images.unsplash.com/photo-1519003722824-194d4455a60c?auto=format&fit=crop&q=80"
+          image: "https://images.unsplash.com/photo-1473042904451-00171c69419d?auto=format&fit=crop&q=80"
+        },
+        {
+          name: "FmFm (Online Tracking System)",
+          client: "ATS Grid Pvt. Ltd.",
+          tech: "Java, Spring, Hibernate, Spring Security, Android",
+          image: "https://images.unsplash.com/photo-1625217527288-93919c99650a?auto=format&fit=crop&q=80"
         }
       ]
     }
@@ -189,21 +219,21 @@ export default function Home() {
       location: "Kota, Rajasthan",
       degree: "Bachelor of Technology (B.Tech.), Computer Science",
       period: "2009 - 2013",
-      image: "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?auto=format&fit=crop&q=80"
+      image: "https://rajasthanlink.com/Banner_Images/08092020011427-media-copy.jpg"
     },
     {
       institution: "Vidya Mandir Public School",
       location: "Faridabad, Haryana",
       degree: "10+2 (Senior Secondary with Non-Medical)",
       period: "2007 - 2009",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80"
+      image: "https://www.vidyamandirpublicschool.com/wp-content/uploads/2021/05/VMPS-Banner-1568x304-1.jpg"
     },
     {
       institution: "Vidya Mandir Public School",
       location: "Faridabad, Haryana",
       degree: "10 (Secondary)",
       period: "2005 - 2007",
-      image: "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?auto=format&fit=crop&q=80"
+      image: "https://www.vidyamandirpublicschool.com/wp-content/uploads/2021/05/VMPS-Banner-1568x304-1.jpg"
     }
   ];
 
@@ -235,7 +265,7 @@ export default function Home() {
                 <Github className="mr-2 h-4 w-4" /> GitHub
               </Button>
             </a>
-            <a href="https://in.linkedin.com/in/m143" target="Linkedin Account">
+            <a href="https://www.linkedin.com/in/m143k/" target="Linkedin Account">
               <Button variant="outline" size="lg">
                 <Linkedin className="mr-2 h-4 w-4" /> LinkedIn
               </Button>
@@ -339,7 +369,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center text-center">
             <div className="flex items-center gap-2 mb-4">
               <Heart className="h-4 w-4 text-destructive" />
-              <span>Built with Mohit Khandelwal</span>
+              <span>Built by Mohit Khandelwal</span>
             </div>
             <div className="flex gap-6">
               <a href="mailto:er.mk@outlook.com" className="text-muted-foreground hover:text-foreground">
@@ -348,7 +378,7 @@ export default function Home() {
               <a href="https://github.com/MOHIT143K" className="text-muted-foreground hover:text-foreground">
                 <Github className="h-5 w-5" />
               </a>
-              <a href="https://in.linkedin.com/in/m143k" className="text-muted-foreground hover:text-foreground">
+              <a href="https://www.linkedin.com/in/m143k/" className="text-muted-foreground hover:text-foreground">
                 <Linkedin className="h-5 w-5" />
               </a>
             </div>
