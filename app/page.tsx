@@ -226,14 +226,14 @@ export default function Home() {
       location: "Faridabad, Haryana",
       degree: "10+2 (Senior Secondary with Non-Medical)",
       period: "2007 - 2009",
-      image: "https://www.vidyamandirpublicschool.com/wp-content/uploads/2021/05/VMPS-Banner-1568x304-1.jpg"
+      image: "https://i.ibb.co/PsL5r89z/School-Building-Pic-Final-1-scaled-e1728929748644-2048x580.jpg"
     },
     {
       institution: "Vidya Mandir Public School",
       location: "Faridabad, Haryana",
       degree: "10 (Secondary)",
       period: "2005 - 2007",
-      image: "https://www.vidyamandirpublicschool.com/wp-content/uploads/2021/05/VMPS-Banner-1568x304-1.jpg"
+      image: "https://i.ibb.co/PsL5r89z/School-Building-Pic-Final-1-scaled-e1728929748644-2048x580.jpg"
     }
   ];
 
