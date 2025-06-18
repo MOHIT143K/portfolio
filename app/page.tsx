@@ -369,7 +369,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center text-center">
             <div className="flex items-center gap-2 mb-4">
               <Heart className="h-4 w-4 text-destructive" />
-              <span>Built by Mohit Khandelwal</span>
+              <span>Built by <strong>Mohit Khandelwal</strong></span>
             </div>
             <div className="flex gap-6">
               <a href="mailto:er.mk@outlook.com" className="text-muted-foreground hover:text-foreground">
